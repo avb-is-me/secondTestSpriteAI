@@ -21,7 +21,7 @@ async function removeBackgroundColor(inputPath, outputPath, targetColor, colorTh
         // Calculate the color difference
         const colorDiff = Jimp.colorDiff({ r: red, g: green, b: blue }, Jimp.intToRGBA(colorToReplace));
 
-        // If the color difference is less than the threshold, make it transparent
+        // If the color difference is less than the threshold, make it transparent awesome
         if (colorDiff <= colorThreshold) {
             this.bitmap.data[idx + 3] = 0; // Set alpha to 0 (transparent)
         }
