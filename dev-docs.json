@@ -1,5 +1,19 @@
 {
+  "quickDoc": {
+    "variablesAndFunctions": {
+      "prompts": [
+        {
+          "question": "Any place this code be improved for performance",
+          "title": "Performance Improvement"
+        }
+      ]
+    }
+  },
+  "ai": {
+    "contextPrompt": "write a cool poem about the codefile"
+  },
   "gitHubApp": {
     "workflows": ["generateDocs"]
-  }
+  },
+  "integrations": ["google_drive"]
 }
