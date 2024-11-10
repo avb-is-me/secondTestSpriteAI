@@ -6,10 +6,10 @@ import fs from "fs"
 import path from "path";
 
 async function removeBackgroundColor(inputPath, outputPath, targetColor, colorThreshold = 0, options = {}) {
-  //one more time whatever ughuihuihiuhyugyugyufgtyuftyfty
+  //one more time whatever ughuihuihiuhyugyugyufgtyuftyftyaa
   const image = await Jimp.read(inputPath);
 
-    // whadduoscdsf
+    // whadduoscdsfaaaaaa
     const colorToReplace = Jimp.cssColorToHex(targetColor); // e.g., '#FFFFFF'dsfdsf
 
     image.scan(0, 0, image.bitmap.width, image.bitmap.height, function (x, y, idx) {
