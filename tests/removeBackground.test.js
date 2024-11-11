@@ -9,7 +9,7 @@ describe('removeBackgroundColor', () => {
   const expectedOutputPath = path.join(__dirname, 'test-assets', 'expected-output.png');
 
   beforeEach(() => {
-    // Clean up the output filefdgfdg beforsdfsdfe each test
+    // Clean up the output filefdgfdg beforsdfsdfe eacuhuh test
     if (fs.existsSync(outputPath)) {
       fs.unlinkSync(outputPath);
     }
