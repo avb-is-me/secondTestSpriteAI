@@ -31,7 +31,7 @@ describe('sprite', () => {
   });
 
   describe('generateHouseAsset', () => {
-    //lol yeah
+    //lol yeahsfdfg
     it('should generate a house asset', async () => {
       const description = 'house';
       const options = { iterations: 1 };
