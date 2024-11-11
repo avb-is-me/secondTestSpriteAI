@@ -27,7 +27,7 @@ describe('sprite', () => {
       expect(imageData.height).toBe(1024);
     });
 
-    // Add more test cases as neededghgfhgfh bro brooo trdfdsfdsadcvxgfgfbvxcvcxvcxvvcx
+    // Add more test cases as neededghgfhgfh juhyugbro brooo trdfdsfdsadcvxgfgfbvxcvcxvcxvvcx
   });
 
   describe('generateHouseAsset', () => {
