@@ -27,7 +27,7 @@ describe('sprite', () => {
       expect(imageData.height).toBe(1024);
     });
 
-    // Add more test cases as needed
+    // Add more test cases as needed bro
   });
 
   describe('generateHouseAsset', () => {
