@@ -14,6 +14,5 @@
   },
   "gitHubApp": {
     "workflows": ["generateDocs"]
-  },
-  "integrations": ["confluence"]
+  }
 }
