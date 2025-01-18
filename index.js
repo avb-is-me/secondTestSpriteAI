@@ -6,7 +6,7 @@ import fs from "fs"
 import path from "path";
 
 async function removeBackgroundColor(inputPath, outputPath, targetColor, colorThreshold = 0, options = {}) {
-  //lol
+  //loooooool
   const image = await Jimp.read(inputPath);
 
     // 
